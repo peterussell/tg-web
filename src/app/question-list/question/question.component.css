@@ -1,0 +1,30 @@
+.row {
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.question {
+    color: #3277a3;
+    background-color: #e1e9ee;
+    cursor: pointer;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.answer {
+    border-bottom: 1px #ddd solid;
+}
+
+fa {
+    padding-right: 10px;
+}
+
+fa.right {
+    float: right;
+    margin-left: 10px;
+}
+
+fa.right:hover {
+    color: #66a0ff;
+}

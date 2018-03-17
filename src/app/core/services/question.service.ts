@@ -1,29 +1,27 @@
-import { Injectable } from "@angular/core";
+import { Injectable, Output, EventEmitter } from "@angular/core";
+
 import { Question } from "../models/question.model";
+import { JsonService } from "./json.service";
+import { QuestionList } from "../models/question-list.model";
 
 @Injectable()
 export class QuestionService {
     questions: Array<Question>;
+    @Output() onQuestionsUpdated: EventEmitter<QuestionList>;
 
-    constructor() {
+    constructor(private jsonService: JsonService) {
         this.questions = new Array<Question>();
+        this.onQuestionsUpdated = new EventEmitter<QuestionList>();
 
-        // tmp - dummy data
-        this.questions.push(new Question(
-            `What is True Airspeed?`,
-            `The speed of the aircraft relative to the air mass it's travelling through.`
-        ));
-        this.questions.push(new Question(
-            `Your TAS is 135kt, with tailwind component of 32kt. What is your groundspeed?`,
-            `167kt.`
-        ));
-        this.questions.push(new Question(
-            `1nm = ____ feet`,
-            `6,080`
-        ));
-    }
-
-    getAllQuestions() {
-        return this.questions.slice();
+        this.jsonService.getJson('doesntmatter')
+                        .subscribe((data) => {
+                            let newQuestions = new Array<Question>();
+                            data.questions.map((q) => {
+                                newQuestions.push(new Question(q.question, q.answer));
+                            });
+                            this.onQuestionsUpdated.emit(new QuestionList(
+                                data.id, data.tags, data.title, newQuestions
+                            ));
+                        });
     }
 }

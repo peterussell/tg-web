@@ -1,7 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs/Observable';
 
 import { Question } from '../core/models/question.model';
 import { QuestionService } from '../core/services/question.service';
+import { QuestionList } from '../core/models/question-list.model';
 
 @Component({
   selector: 'app-question-list',
@@ -9,12 +11,14 @@ import { QuestionService } from '../core/services/question.service';
   styleUrls: ['./question-list.component.css']
 })
 export class QuestionListComponent implements OnInit {
-  questions: Array<Question>;
+  questionList: QuestionList;
 
   constructor(private questionService: QuestionService) { }
 
   ngOnInit() {
-    this.questions = this.questionService.getAllQuestions();
+    this.questionService.onQuestionsUpdated.subscribe(newQuestionList => {
+      this.questionList = newQuestionList;
+    });
   }
 
 }

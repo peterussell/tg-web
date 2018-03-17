@@ -18,4 +18,14 @@ export class QuestionComponent implements OnInit {
   onToggleAnswer() {
     this.answerVisible = !this.answerVisible;
   }
+
+  onMarkForReviewClick(question: Question, event: Event) {
+    event.preventDefault();
+    console.log(`Marking question for review: "${question.question}"`);
+  }
+
+  onReportQuestionClick(question: Question, event: Event) {
+    event.preventDefault();
+    console.log(`Reporting question: "${question.question}"`);
+  }
 }

@@ -1,24 +1,27 @@
-<div class="row">
-  <div class="col-xs-12">
-    {{ this.question.question }}
+<div class="row question" (click)="onToggleAnswer()">
+  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+    <fa name="caret-right" *ngIf="!answerVisible; else arrowDown"></fa>
+    <ng-template #arrowDown><fa name="caret-down"></fa></ng-template>
+      {{ this.question.question }}
+  </div>
+  <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+      <span class="action-items">
+      <fa
+        title="Mark for review"
+        name="bookmark"
+        class="right"
+        (click)="onMarkForReviewClick(question, $event)"></fa>
+      <fa
+        title="Report incorrect question"
+        name="exclamation-circle"
+        class="right"
+        (click)="onReportQuestionClick(question, $event)"></fa>
+    </span>
   </div>
 </div>
 
-<div class="row">
+<div class="row answer" *ngIf="answerVisible">
   <div class="col-xs-12">
-    <div>
-      <button
-        class="btn btn-primary"
-        *ngIf="!answerVisible; else answerText"
-        (click)="onToggleAnswer()">
-          Show Answer
-        </button>
-        <ng-template #answerText>
-          {{ this.question.answer }}
-          <button class="btn btn-primary" (click)="onToggleAnswer()">Hide</button>
-        </ng-template>
-    </div>
+      {{ this.question.answer }}
   </div>
 </div>
-
-<hr>
