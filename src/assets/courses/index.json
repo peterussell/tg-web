@@ -18,7 +18,7 @@
 						},
 						{
 							"title": "Compass Direction",
-							"path": 3_compass-direction.json"
+							"path": "3_compass-direction.json"
 						},
 						{
 							"title": "Speed",
@@ -51,7 +51,8 @@
 						{
 							"title": "Visual Navigation Charts",
 							"path": "11_vnc.json"
-						},
+						}
+					]
 				}
 			]
 		}

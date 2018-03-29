@@ -16,9 +16,9 @@ export class QuestionSetComponent implements OnInit {
   constructor(private questionService: QuestionService) { }
 
   ngOnInit() {
-    this.questionService.onQuestionsUpdated.subscribe(newQuestionSet => {
-      this.questionSet = newQuestionSet;
-    });
+    // this.questionService.onQuestionsUpdated.subscribe(newQuestionSet => {
+    //   this.questionSet = newQuestionSet;
+    // });
   }
 
 }
