@@ -4,8 +4,8 @@ import { AngularFontAwesomeModule } from 'angular-font-awesome';
 
 
 import { AppComponent } from './app.component';
-import { QuestionListComponent } from './question-list/question-list.component';
-import { QuestionComponent } from './question-list/question/question.component';
+import { QuestionSetComponent } from './question-set/question-set.component';
+import { QuestionComponent } from './question-set/question/question.component';
 import { HeaderComponent } from './header/header.component';
 import { QuestionService } from './core/services/question.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -16,7 +16,7 @@ import { QuestionSelectorComponent } from './question-selector/question-selector
 @NgModule({
   declarations: [
     AppComponent,
-    QuestionListComponent,
+    QuestionSetComponent,
     QuestionComponent,
     HeaderComponent,
     QuestionSelectorComponent

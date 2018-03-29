@@ -10,7 +10,7 @@
       "assets": [
         "assets",
         "favicon.ico",
-        { "glob": "1_navigation-fundamental.json", "input": "./", "output": "./assets/" }
+        { "glob": "5_vectors.json", "input": "./", "output": "./assets/" }
       ],
       "index": "index.html",
       "main": "main.ts",

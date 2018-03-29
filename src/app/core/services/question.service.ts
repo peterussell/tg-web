@@ -2,7 +2,7 @@ import { Injectable, Output, EventEmitter } from "@angular/core";
 
 import { Question } from "../models/question.model";
 import { JsonService } from "./json.service";
-import { QuestionList } from "../models/question-list.model";
+import { QuestionSet } from "../models/question-set.model";
 import { Course } from "../models/course.model";
 
 @Injectable()
@@ -11,7 +11,7 @@ export class QuestionService {
 
     courses: Array<Course>;
 
-    @Output() onQuestionsUpdated: EventEmitter<QuestionList>;
+    @Output() onQuestionsUpdated: EventEmitter<QuestionSet>;
 
     constructor(private jsonService: JsonService) { }
 
@@ -22,7 +22,7 @@ export class QuestionService {
                 data.questions.map((q) => {
                     newQuestions.push(new Question(q.question, q.answer));
                 });
-                this.onQuestionsUpdated.emit(new QuestionList(
+                this.onQuestionsUpdated.emit(new QuestionSet(
                     data.id, data.tags, data.title, newQuestions
                 ));
             });
