@@ -1,0 +1,59 @@
+{
+	"courses": [
+		{
+			"title": "CPL",
+			"path": "cpl",
+	 		"topics": [
+				{
+					"title": "Navigation and Flight Planning",
+					"path": "navigation-flight-planning",
+					"question-sets": [
+						{
+							"title": "Navigation Fundamentals",
+							"path": "1_navigation-fundamentals.json"
+						},
+						{
+							"title": "Direction",
+							"path": "2_direction.json"
+						},
+						{
+							"title": "Compass Direction",
+							"path": 3_compass-direction.json"
+						},
+						{
+							"title": "Speed",
+							"path": "4_speed.json"
+						},
+						{
+							"title": "Vectors",
+							"path": "5_vectors.json"
+						},
+						{
+							"title": "Altimetry",
+							"path": "6_altimetry.json"
+						},
+						{
+							"title": "Time",
+							"path": "7_time.json"
+						},
+						{
+							"title": "Chart Projections",
+							"path": "8_chart-projections.json"
+						},
+						{
+							"title": "New Zealand Charts",
+							"path": "9_nz-charts.json"
+						},
+						{
+							"title": "Visual Planning Charts",
+							"path": "10_vpc.json"
+						},
+						{
+							"title": "Visual Navigation Charts",
+							"path": "11_vnc.json"
+						},
+				}
+			]
+		}
+	]
+}

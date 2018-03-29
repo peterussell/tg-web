@@ -10,6 +10,7 @@ import { HeaderComponent } from './header/header.component';
 import { QuestionService } from './core/services/question.service';
 import { HttpClientModule } from '@angular/common/http';
 import { JsonService } from './core/services/json.service';
+import { QuestionSelectorComponent } from './question-selector/question-selector.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { JsonService } from './core/services/json.service';
     AppComponent,
     QuestionListComponent,
     QuestionComponent,
-    HeaderComponent
+    HeaderComponent,
+    QuestionSelectorComponent
   ],
   imports: [
     BrowserModule,
