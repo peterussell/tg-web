@@ -106,6 +106,10 @@
 		{
 			"question": "Where can you find information about special airspace?",
 			"answer": "ENR Section 5 of the AIPNZ, and in the NZ Air Navigation Register."
+		},
+		{
+			"question": "In terms of special airspace, what do D, M, and B stand for?",
+			"answer": "D = Danger, M = Military, B = MBZ (Mandatory Broadcast Zone)."
 		}
 	]
 }
