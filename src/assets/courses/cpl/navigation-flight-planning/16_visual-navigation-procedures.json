@@ -1,0 +1,115 @@
+{
+	"id": 16,
+	"tags": ["visual navigation, navigation"],
+	"title": "Visual Navigation Procedures",
+	"questions": [
+		{
+			"question": "If flying beyond the coast, you should take __________.",
+			"answer": "Serviceable life jackets."
+		},
+		{
+			"question": "You should file a flight plan with __________, or give your flight details to ____________________.",
+			"answer": "ATC. A person prepared to act as your flight follower if filing with ATC is not practicable."
+		},
+		{
+			"question": "The track you actually follow in flight is called your __________.",
+			"answer": "Track Made Good (TMG)."
+		},
+		{
+			"question": "During flight planning, you should select __________ and mark these as checkpoints.",
+			"answer": "Easily identifiable features."
+		},
+		{
+			"question": "When in busy airspace or near busy airports, you should select (more/less) checkpoints. In sparsely populated terrain you may select (more/less).",
+			"answer": "More. Less."
+		},
+		{
+			"question": "When is 'Track Crawling' required, and what is it?",
+			"answer": "Required when forecast and actual wind differ. Process is to determine which direction you're drifting from planned track, apply a correction angle, and continue doing this until the drift stops."
+		},
+		{
+			"question": "Once established, prefer the (DI/compass) for maintaining heading, because __________.",
+			"answer": "DI. Less susceptible to errors and changes in turbulence."
+		},
+		{
+			"question": "What is important to remember when navigating by using the DI?",
+			"answer": "It can precess and needs to be periodically reset against the magnetic compass."
+		},
+		{
+			"question": "What is a 'fix', and two methods of determining one?",
+			"answer": "A geographical position at a given point in time. Using ground features or navigation aids."
+		},
+		{
+			"question": "What is a 'pinpoint' and how is it different to a fix?",
+			"answer": "A geographical position at a given point in time determined by reference to a point on the ground. Differs to a fix in that it uses a single reference point, where a fix usually uses two or more."
+		},
+		{
+			"question": "What is a 'waypoint'?",
+			"answer": "Location or fix that can be used in a navigation system (eg. GPS)."
+		},
+		{
+			"question": "What is a DR position, and what two measurements is it based on?",
+			"answer": "Dead Reckoning Position. Place you anticipate you'll be at a point in time. Based on track made good (TMG) and groundspeed (GS)."
+		},
+		{
+			"question": "When using two or more features to obtain a visual fix, what is the ideal position for them to be relative to the aircraft and each other?",
+			"answer": "Positions such that the lines drawn from each visual reference to the aircraft cross as close as possible to right angles."
+		},
+		{
+			"question": "What is the symbol for a visual fix or pinpoint (not using position lines)?",
+			"answer": "Circle with a dot inside it."
+		},
+		{
+			"question": "What is the symbol for a visual fix using position lines?",
+			"answer": "Circle with two arrows crossed over it, arrows extending beyond the circle."
+		},
+		{
+			"question": "What is the symbol for a Dead Reckoning (DR) position?",
+			"answer": "Triangle with a filled dot in the middle."
+		},
+		{
+			"question": "What is the symbol for a radar fix position from ATC?",
+			"answer": "Circle with two lines across it, but contained within the circle."
+		},
+		{
+			"question": "What are the two important components during a navigation flight?",
+			"answer": "Aircraft management and pilot navigation."
+		},
+		{
+			"question": "What are two problems resulting from flying an aircraft out of balance?",
+			"answer": "Tends to roll making it harder to maintain heading. Increases drag and can cause imprecise readings at pitot and static vents."
+		},
+		{
+			"question": "What are two engine settings can affect the output of a planned power setting at a given altitude?",
+			"answer": "Mixture and carb heat."
+		},
+		{
+			"question": "When concentrating on navigation, it's important to intersperse _______________ with updating logs or looking at charts.",
+			"answer": "Frequent checks outside."
+		},
+		{
+			"question": "What factors should be considered when selecting a cruise altitude? (8 factors).",
+			"answer": "Terrain height. Meteorological conditions (eg. cloud bases). Winds aloft. VFR cruise altitudes. Airspace. Freezing level. ATC reception. Aircraft performance."
+		},
+		{
+			"question": "Once you've decided to divert, don't __________.",
+			"answer": "Change your mind."
+		},
+		{
+			"question": "What are three times safety checks should be carried out?",
+			"answer": "Shortly after departure. At checkpoints and turning points. At intervals not exceeding 15 minutes."
+		},
+		{
+			"question": "What does SADIE stand for?",
+			"answer": "Suction, Amps, DI (to compass), Icing, Engine."
+		},
+		{
+			"question": "What does CLEAR stand for?",
+			"answer": "Compass. Log. Engine. Altitude. Radio."
+		},
+		{
+			"question": "In general, how often should you check fuel endurance?",
+			"answer": "Every 30 minutes."
+		},
+	]
+}
