@@ -30,6 +30,6 @@
 		{
 			"question": "Distance from A to B is 130nm. You're overhead A at 0400 UTC. At some point C along the route, you're 48nm from A at 0418 UTC. What is the groundspeed between A and C, and ETA at B?",
 			"answer": "160kt. 0448 UTC. (04:48.45 UTC)."
-		},
+		}
 	]
 }
