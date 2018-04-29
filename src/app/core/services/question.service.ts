@@ -11,9 +11,9 @@ export class QuestionService {
 
     courses: Array<Course>;
 
-    @Output() onQuestionsUpdated: EventEmitter<QuestionSet>;
+    @Output() onQuestionsUpdated: EventEmitter<Array<Question>> = new EventEmitter<Array<Question>>();
 
-    constructor(private jsonService: JsonService) { }
+    constructor(private jsonService: JsonService) {}
 
     updateQuestions(path: string) {
         this.jsonService.getJson(path)
@@ -22,9 +22,8 @@ export class QuestionService {
                 data.questions.map((q) => {
                     newQuestions.push(new Question(q.question, q.answer));
                 });
-                this.onQuestionsUpdated.emit(new QuestionSet(
-                    data.id, data.tags, data.title, newQuestions
-                ));
+                this.questions = newQuestions.slice();
+                this.onQuestionsUpdated.emit(this.questions);
             });
     }
 }

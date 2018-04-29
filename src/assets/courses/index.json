@@ -7,7 +7,7 @@
 				{
 					"title": "Navigation and Flight Planning",
 					"path": "navigation-flight-planning",
-					"question-sets": [
+					"questionSets": [
 						{
 							"title": "Navigation Fundamentals",
 							"path": "1_navigation-fundamentals.json"

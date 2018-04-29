@@ -5,43 +5,43 @@
 	"questions": [
 		{
 			"question": "The difference between Magnetic direction and Compass heading is called __________.",
-			"answer": "Deviation.",
+			"answer": "Deviation."
 		},
 		{
 			"question": "What is the maximum deviation value on a compass card, and how is it reduced below that value?",
-			"answer": "3&deg;. Via calibration.",
+			"answer": "3&deg;. Via calibration."
 		},
 		{
 			"question": "What causes deviation?",
-			"answer": "Aircraft components, metal in the aircraft, other magnetic fields (eg. electronics).",
+			"answer": "Aircraft components, metal in the aircraft, other magnetic fields (eg. electronics)."
 		},
 		{
 			"question": "An easterly deviation means the compass heading will be __________ than the magnetic direction.",
-			"answer": "Less. 'Deviation east = compass least.'",
+			"answer": "Less. 'Deviation east = compass least.'"
 		},
 		{
 			"question": "A westerly deviation means the compass heading will be __________ than the magnetic direction.",
-			"answer": "Greater. 'Deviation west = compass best.'",
+			"answer": "Greater. 'Deviation west = compass best.'"
 		},
 		{
 			"question": "What is a 'compass swing', and what's the result of doing one?",
-			"answer": "Process performed by a maintenance engineer, where they check deviation at regular intervals against a master compass. Result is a graph showing deviation through 360&deg;.",
+			"answer": "Process performed by a maintenance engineer, where they check deviation at regular intervals against a master compass. Result is a graph showing deviation through 360&deg;."
 		},
 		{
 			"question": "What compass heading should you fly to maintain 183&deg;M with a 2&deg;W compass deviation?",
-			"answer": "185&deg;C.",
+			"answer": "185&deg;C."
 		},
 		{
 			"question": "What compass heading should you fly to maintain 039&deg;M with a 1&deg;E compass deviation?",
-			"answer": "038&deg;C.",
+			"answer": "038&deg;C."
 		},
 		{
 			"question": "Compass heading is 216&deg;C with 2&deg;W compass deviation. What is the magnetic direction?",
-			"answer": "214&deg;M.",
+			"answer": "214&deg;M."
 		},
 		{
 			"question": "Compass heading is 080&deg;C with 3&deg;E compass deviation. What is the magnetic direction?",
-			"answer": "083&deg;M.",
+			"answer": "083&deg;M."
 		},
 		{
 			"question": "What is a True Bearing?",
@@ -49,7 +49,7 @@
 		},
 		{
 			"question": "Starting at Wellington and ending at Taupo, you measure the angle of a direct line between them as having an angle of 027&deg;T. You would say this is _____&deg;T FROM Wellington, or _____&deg;T FROM Taupo.",
-			"answer": "027&deg;T. 207&deg;T",
+			"answer": "027&deg;T. 207&deg;T"
 		},
 		{
 			"question": "A magnetic bearing is a true bearing which has been __________.",

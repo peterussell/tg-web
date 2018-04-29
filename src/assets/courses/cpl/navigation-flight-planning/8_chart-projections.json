@@ -8,7 +8,7 @@
 			"answer": "Produce a map with the least amount of distortion for a specific purpose."
 		},
 		{
-			"question": "__________ or __________ is the name given to charts whose scales and angular relationships are consistent. What are the 3 properties of these types of charts?,
+			"question": "__________ or __________ is the name given to charts whose scales and angular relationships are consistent. What are the 3 properties of these types of charts?",
 			"answer": "Orthomorphic or Conformal. 1. Scale at any point is the same in all directions. 2. Meridians and parallels cross at right angles. 3. Angles and bearings on the chat should match those on the Earth's surface."
 		},
 		{
@@ -44,7 +44,7 @@
 			"answer": "The distance between them increases as they move away from the Equator/nearer the Poles."
 		},
 		{
-			"question": "The Lambert projection cuts the Earth's surface at _____ parallels, called the __________. Details of these can be found __________.,
+			"question": "The Lambert projection cuts the Earth's surface at _____ parallels, called the __________. Details of these can be found __________.",
 			"answer": "2. Standard Parallels. Title page of the chart using this projection."
 		},
 		{
@@ -66,6 +66,6 @@
 		{
 			"question": "What are four primary advantages of the Lambert Conformal Projection?",
 			"answer": "Most latitudes can be projected (eg. poles). Useful for countries with a large east/west expanse. Distances can be measured accurately. Great circles are straight lines."
-		},
+		}
 	]
 }

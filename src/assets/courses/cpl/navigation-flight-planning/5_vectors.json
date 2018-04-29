@@ -13,7 +13,7 @@
 		},
 		{
 			"question": "Does wind direction give direction the wind comes from, or direction the wind goes to?",
-			"answer": "Direction from.."
+			"answer": "Direction from."
 		},
 		{
 			"question": "Decode this wind information: 260/19.",
@@ -32,7 +32,7 @@
 			"answer": "Heading/TAS and wind direction/wind speed (Wind Velocity vector, or W/V vector)."
 		},
 		{
-			"question": "What is an aircraft's "track"?",
+			"question": "What is an aircraft's \"track\"?",
 			"answer": "Path of the aircraft over the Earth's surface."
 		},
 		{

@@ -1,5 +1,8 @@
 import { QuestionSet } from "./question-set.model";
 
 export class Topic {
-    constructor(private title: string, private questionSet: QuestionSet) { }
+    constructor(
+        public title: string,
+        public path: string,
+        public questionSets: Array<QuestionSet>) { }
 }

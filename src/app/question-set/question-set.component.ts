@@ -11,14 +11,15 @@ import { QuestionSet } from '../core/models/question-set.model';
   styleUrls: ['./question-set.component.css']
 })
 export class QuestionSetComponent implements OnInit {
-  questionSet: QuestionSet;
+  public questions: Array<Question>;
 
   constructor(private questionService: QuestionService) { }
 
   ngOnInit() {
-    // this.questionService.onQuestionsUpdated.subscribe(newQuestionSet => {
-    //   this.questionSet = newQuestionSet;
-    // });
+    this.questionService.onQuestionsUpdated.subscribe(newQuestions => {
+      this.questions = newQuestions;
+      console.log(this.questions);
+    });
   }
 
 }

@@ -32,12 +32,12 @@
 			"answer": "6080."
 		},
 		{
-			"question": "Convert 1" to centimetres.",
+			"question": "Convert 1\" to centimetres.",
 			"answer": "2.54cm"
 		},
 		{
 			"question": "Convert 1nm to kilometres",
-			"answer": "1.85km or 1.852km. (12" x 6080' x 2.54cm/inch). (Approximately). "
+			"answer": "1.85km or 1.852km. (12\" x 6080' x 2.54cm/inch). (Approximately). "
 		},
 		{
 			"question": "What is the VPC, and what scale does it use?",
@@ -74,6 +74,6 @@
 		{
 		 	"question": "Detailed information on aerodromes can be found on a __________, which can be located in __________.",
 			"answer": "Visual Aerodrome Charts. AIPNZ Volume 4."
-		},
+		}
 	]
 }
