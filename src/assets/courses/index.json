@@ -51,6 +51,46 @@
 						{
 							"title": "Visual Navigation Charts",
 							"path": "11_vnc.json"
+						},
+						{
+							"title": "Charts (Misc)",
+							"path": "12_charts-misc.json"
+						},
+						{
+							"title": "E6B Computations",
+							"path": "13_e6b-computations.json"
+						},
+						{
+							"title": "E6B Conversions",
+							"path": "14_e6b-conversions.json"
+						},
+						{
+							"title": "E6B Wind Side",
+							"path": "15_e6b-wind-side.json"
+						},
+						{
+							"title": "Visual Navigation Procedures",
+							"path": "16_visual-navigation-procedures.json"
+						},
+						{
+							"title": "Departure Procedures",
+							"path": "17_departure-procedures.json"
+						},
+						{
+							"title": "Cruise Procedures",
+							"path": "18_cruise-procedures.json"
+						},
+						{
+							"title": "Track and Heading",
+							"path": "19_track-and-heading.json"
+						},
+						{
+							"title": "Descent Procedures",
+							"path": "20_descent-procedures.json"
+						},
+						{
+							"title": "Track Error",
+							"path": "21_track-error.json"
 						}
 					]
 				}

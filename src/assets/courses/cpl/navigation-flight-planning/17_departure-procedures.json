@@ -49,7 +49,7 @@
 		},
 		{
 			"question": "What information should you include in a departure report?",
-			"answer": "Aircraft identification, set heading time in minutes past the hour, altitude + "CLIMBING TO" + altitude of the initial portion of the flight, significant point/fix where the ATS route is joined, and ETO in minutes past the hour."
+			"answer": "Aircraft identification, set heading time in minutes past the hour, altitude + \"CLIMBING TO\" + altitude of the initial portion of the flight, significant point/fix where the ATS route is joined, and ETO in minutes past the hour."
 		},
 		{
 			"question": "At a Rate of Climb of 800 FPM, what is the climb time from sea level to 6500' to the nearest minute?",
@@ -87,8 +87,9 @@
 			"question": "Given the following winds aloft forecast, what wind value should you use for a climb from sea level to 7500'? SL: 350&deg;/10kt. 3000' 340&deg;/15kt. 5000': 320&deg;/20kt. 7000': 300&deg;/30kt. 10000': 280&deg;/40kt.",
 			"answer": "320&deg;/20kt."
 		},
+		{
 			"question": "Given the following winds aloft forecast, what wind value should you use for a climb from 1000' to 5500'? SL: 350&deg;/10kt. 3000' 340&deg;/15kt. 5000': 320&deg;/20kt. 7000': 300&deg;/30kt. 10000': 280&deg;/40kt.",
-			"answer": "330&deg;/17.5kt (either 17kt or 18kt is fine).
+			"answer": "330&deg;/17.5kt (either 17kt or 18kt is fine)."
 		},
 		{
 			"question": "Before the mean altitude wind is interpolated, round (up/down) to the nearest 500'. eg. 4750' becomes __________.",

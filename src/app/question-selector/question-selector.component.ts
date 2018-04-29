@@ -57,6 +57,7 @@ export class QuestionSelectorComponent implements OnInit {
     this.selectedTopic = this.topics.find(t => t.path === topicPath);
     if (this.selectedTopic) {
       this.questionSets = this.selectedTopic.questionSets;
+      this.selectQuestionSet(this.selectedTopic.questionSets[0].path);
     }
   }
 

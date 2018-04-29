@@ -1,14 +1,9 @@
+<app-question-selector></app-question-selector>
+
 <div class="row">
-
-  <app-question-selector></app-question-selector>
-
-</div>
-<div class="row">
-
   <div class="col-xs-12" *ngIf="questions; else noQuestions">
-    <!-- <h5>{{ questionList.title }}<hr></h5> -->
 
-
+    <h5>{{ questionSetTitle }}</h5>
     <div class="question-item" *ngFor="let question of questions">
       <app-question [question]="question"></app-question>
     </div>
@@ -17,5 +12,4 @@
   <ng-template #noQuestions>
     <p>Select a certification</p>
   </ng-template>
-
 </div>
