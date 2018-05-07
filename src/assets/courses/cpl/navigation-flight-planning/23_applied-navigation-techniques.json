@@ -1,7 +1,7 @@
 {
 	"id": 23,
-	"tags": ["applied navigation, navigation techniques, diversions, cross country, flight planning, navigation"],
-	"title": "Applied Navigation Techniques",
+	"tags": ["applied navigation, low-level flying, diversions, cross country, flight planning, navigation"],
+	"title": "Applied Navigation: Diversions and Low-level Flight.",
 	"questions": [
 		{
 			"question": "What are examples of reasons you may have to divert from yur planned track?",
@@ -58,6 +58,46 @@
 		{
 			"question": "You're tracking to your destination on a heading of 058&deg;M. At 2204 UTC you're advised of a line of thunderstorms across your track. Groundspeed is 108kt. You decide to divert to an aerodrome right of track and ahead of your present position. The alternate is 36nm to run, and 6nm off track. What is the required heading to the alternate, and ETA for that aerodrome?",
 			"answer": "068&deg;. 2224 UTC."
+		},
+		{
+			"question": "When flying at low level (at or near _____' AGL), it's important to be aware of _________ requirements.",
+			"answer": "Legislative/legal."
+		},
+		{
+			"question": "The distance you can see is directly proportional to the _____ you fly at. This is exacerbated by _____ or _____.",
+			"answer": "Height. Fog. Haze."
+		},
+		{
+			"question": "When flying at low level, you require (more/less) checkpoints. Why?",
+			"answer": "More. You can't see as far, so won't be able to see distant checkpoints until you're closer."
+		},
+		{
+			"question": "Although few man-made __________ exist at 500' AGL, many __________ ones do, for example: __________.",
+			"answer": "Obstructions. Natural. Mountains. Cliffs along coastlines."
+		},
+		{
+			"question": "What else should you specifically look out for when flying at low level, and in what kind of common environment is this most important?",
+			"answer": "Birds. Coastal areas."
+		},
+		{
+			"question": "If low flight is planned, describe the recommended procedure for checkpoints.",
+			"answer": "Use as many as possible, mark them on your chart, and tick them off as you pass them. It is also recommended to write elapsed times between checkpoints on the chart."
+		},
+		{
+			"question": "If low flight is unplanned, describe the recommended procedure for checkpoints.",
+			"answer": "Draw a freehand line on the chart, identify any nearby checkpoints. Estimate elapsed times."
+		},
+		{
+			"question": "Aircraft management at low levels requires (more/less) attention. You may also need to fly in the __________ configuration.",
+			"answer": "More. Bad weather/low visibility."
+		},
+		{
+			"question": "Is there a difference between selecting checkpoints for high level and low level flight? If yes, what is it?",
+			"answer": "Yes. Useful checkpoints may be different, for example ones that may be hard to see from altitude may be good from lower down. For example: church steeples, factory chimneys, railroad crossings."
+		},
+		{
+			"question": "During low-level flight, note taking is generally __________ due to (higher/lower) workloads than normal flight. It is often useful to use the __________ as a log.",
+			"answer": "Brief. Higher. Chart."
 		}
 	]
 }
