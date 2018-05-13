@@ -92,8 +92,8 @@
 			"answer": "National Briefing Office. Via internet, fax, or telephone."
 		},
 		{
-			"question": "What is flying for Maximum Endurance, and how would you determine this figure?",
-			"answer": "Configuring the aircraft to use the least amount of fuel to remain airborne as long as possible. Use fuel performance charts to find the lowest fuel consumption rate."
+			"question": "What is the purpose behind flying for Maximum Endurance, and how would you determine the configuration required to do this?",
+			"answer": "To remain airborne as long as possible. Use fuel performance charts to find the power and altitude settings which give the lowest fuel consumption rate."
 		},
 		{
 			"question": "It is recommended that you transfer the departure _____ and _____ to the VNC, written next to the departure point and any __________, along with an arrow showing direction of the leg.",
