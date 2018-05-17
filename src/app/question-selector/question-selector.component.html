@@ -6,7 +6,7 @@
     <select id="courseSelect" class="form-control" (change)="selectCourse($event.target.value)">
       <option
         *ngFor="let course of courses" 
-        value="{{ course.path }}">
+        value="{{ course.courseId }}">
         {{ course.title }}
       </option>
     </select>
@@ -21,7 +21,7 @@
     <select id="topicSelect" class="form-control" (change)="selectTopic($event.target.value)">
       <option
         *ngFor="let topic of topics"
-        value="{{ topic.path }}">
+        value="{{ topic.topicId }}">
         {{ topic.title }}
       </option>
     </select>
@@ -33,10 +33,10 @@
     <div class="form-group">
     
     <label for="questionSetSelect">Question Set</label>
-    <select id="questionSetSelect" class="form-control" (change)="selectQuestionSet($event.target.value)">
+    <select id="questionSetSelect" class="form-control" (change)="onChangeQuestionSet($event.target.value)"> <!-- working here: selectQuestionSet needs an ID instead of an object -->
       <option
         *ngFor="let questionSet of questionSets"
-        value="{{ questionSet.path }}">
+        value="{{ questionSet.questionSetId }}">
         {{ questionSet.title }}
       </option>
     </select>

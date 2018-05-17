@@ -1,10 +1,10 @@
 <app-question-selector></app-question-selector>
 
 <div class="row">
-  <div class="col-xs-12" *ngIf="questions; else noQuestions">
+  <div class="col-xs-12" *ngIf="QuestionSet; else noQuestions">
 
     <h5>{{ questionSetTitle }}</h5>
-    <div class="question-item" *ngFor="let question of questions">
+    <div class="question-item" *ngFor="let question of QuestionSet.Questions">
       <app-question [question]="question"></app-question>
     </div>
   </div>

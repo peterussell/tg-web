@@ -6,16 +6,22 @@ import { JsonService } from "./json.service";
 
 @Injectable()
 export class QuestionService {
-    questions: Array<Question>;
+    questionSet: QuestionSet;
 
     @Output() onQuestionsUpdated: EventEmitter<any> = new EventEmitter<any>();
 
     constructor(private jsonService: JsonService) {}
 
-    updateQuestions(path: string) {
-        this.jsonService.getJson(path)
-            .subscribe((data) => {
-                this.onQuestionsUpdated.emit(data);
+    updateQuestionSet(questionSetId: number) {
+        this.jsonService.getQuestions(questionSetId)
+            .subscribe((res) => {
+                if (res.statusCode !== 200) {
+                    // TODO: should go to a logger (does S3 have something we can use?)
+                    console.log(`Error fetching questionSet ${questionSetId}, status code ${res.statusCode}.`);
+                } else {
+                    this.questionSet = res.body;
+                    this.onQuestionsUpdated.emit(this.questionSet);
+                }
             });
     }
 }

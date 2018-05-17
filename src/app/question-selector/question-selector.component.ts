@@ -27,53 +27,39 @@ export class QuestionSelectorComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.loadCourseIndexFromJson('courses/index.json');
+    this.loadCourses('courses');
   }
 
-  loadCourseIndexFromJson(indexPath: string) {
-    this.jsonService.getJson(indexPath).subscribe(json => {
-      this.courses = json.courses;
-      this.selectCourse(this.courses[0].path); // default to first course
-    });
+  loadCourses(coursesPath: string) {
+    this.jsonService.getCourses(coursesPath).subscribe(coursesJson => {
+      this.courses = coursesJson.courses;
+      this.selectCourse(this.courses[0]);
+    })
   }
 
-  selectCourse(coursePath: string) {
-    if (coursePath === '' || !this.courses) {
-      this.selectedCourse = null;
-      return;
-    }
-    this.selectedCourse = this.courses.find(c => c.path === coursePath);
-    if (this.selectedCourse) {
-      this.topics = this.selectedCourse.topics;
-      this.selectTopic(this.selectedCourse.topics[0].path); // default to first topic
+  selectCourse(course: Course) {
+    this.selectedCourse = course;
+
+    if (this.selectedCourse !== null) {
+      this.topics = course.topics;
+      this.selectTopic(this.selectedCourse.topics[0]);
     }
   }
 
-  selectTopic(topicPath: string) {
-    if (topicPath === '' || !this.topics) {
-      this.selectedTopic = null;
-      return;
-    }
-    this.selectedTopic = this.topics.find(t => t.path === topicPath);
-    if (this.selectedTopic) {
+  selectTopic(topic: Topic) {
+    this.selectedTopic = topic;
+
+    if (this.selectedTopic !== null) {
       this.questionSets = this.selectedTopic.questionSets;
-      this.selectQuestionSet(this.selectedTopic.questionSets[0].path);
+      this.selectQuestionSet(this.selectedTopic.questionSets[0]);
     }
   }
 
-  selectQuestionSet(questionSetPath: string) {
-    if (questionSetPath === '' || !this.questionSets) {
-      this.selectedQuestionSet = null;
-      return;
-    };
-    this.selectedQuestionSet = this.questionSets.find(qs => qs.path === questionSetPath);
-    if (this.selectedQuestionSet) {
-      this.questionService.updateQuestions(this.getFullPathForSelectedQuestionSet());
-    }
+  selectQuestionSet(questionSet: QuestionSet) {
+    this.questionService.updateQuestionSet(1); // tmp, need to get dynamic ID
   }
 
-  private getFullPathForSelectedQuestionSet() {
-    if (!this.selectedCourse || !this.selectedTopic || !this.selectedQuestionSet) return '';
-    return 'courses/'+this.selectedCourse.path+'/'+this.selectedTopic.path+'/'+this.selectedQuestionSet.path;
+  onChangeQuestionSet(questionSetId: number) {
+    console.log(questionSetId);
   }
 }
