@@ -1,7 +1,8 @@
 {
 	"id": 31,
-	"tags": ["gps, gnss"],
+	"tags": ["gps, gnss, navigation systems"],
 	"title": "GPS",
+	"questions": [
 		{
 			"question": "What is the relationship between GNSS and GPS?",
 			"answer": "GPS is an American version of the GNSS."
