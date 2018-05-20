@@ -1,5 +1,6 @@
 {
-	"id": 32,
+	"question_set_id": "a1984ae4-fc22-490c-860e-a90eddb8dec1",
+	"topic_id": "8ae615e5-fbb5-4c94-8416-7de818301bca",
 	"tags": ["radar, navigation systems"],
 	"title": "Radar",
 	"questions": [
@@ -18,6 +19,7 @@
 		{
 			"question": "Radar can operate over _____ or _____ signals, both of which require line of _____.",
 			"answer": "VHF. UHF. Sight."
+		},
 		{
 			"question": "Radar coverage is better at (higher/lower) altitudes. In what environment can receiving radar coverage be particularly difficult?",
 			"answer": "Higher. Flying low around mountains."
@@ -27,7 +29,7 @@
 			"answer": "Central computer."
 		},
 		{
-			"question": "Aircraft without a transponder can only receieve __________ radar coverage, as long as they also have an __________ __________ and are in __________ radar coverage."
+			"question": "Aircraft without a transponder can only receieve __________ radar coverage, as long as they also have an __________ __________ and are in __________ radar coverage.",
 			"answer": "Primary. Operable radio. Primary."
 		},
 		{

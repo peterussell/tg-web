@@ -1,5 +1,6 @@
 {
-	"id": 28,
+	"question_set_id": "89587d71-32f6-45f6-aa1e-2b1524b9056e",
+	"topic_id": "8ae615e5-fbb5-4c94-8416-7de818301bca",
 	"tags": ["equi-time point, critical point"],
 	"title": "Equi-time Point (Critical Point)",
 	"questions": [
@@ -13,7 +14,7 @@
 		},
 		{
 			"question": "What does GSO stand for, and what is it?",
-			"answer": "Groundspeed On. The groundspeed from the ETP to the destination point.
+			"answer": "Groundspeed On. The groundspeed from the ETP to the destination point."
 		},
 		{
 			"question": "In nil wind conditions, the GSH and GSO are _____.",

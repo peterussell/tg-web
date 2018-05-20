@@ -1,5 +1,6 @@
 {
-	"id": 30,
+	"question_set_id": "3a32728a-6185-49c4-a6ff-6b2298c3a118",
+	"topic_id": "8ae615e5-fbb5-4c94-8416-7de818301bca",
 	"tags": ["cruise performance, performance, cpl only, cpl"],
 	"title": "Cruise Performance (CPL Only)",
 	"questions": [
@@ -85,7 +86,7 @@
 		},
 		{
 			"question": "Calculate the SAR for a TAS of 120kt and a fuel flow of 11.8 US gal/hour.",
-			"answer": 10.16 anm/US gal.""
+			"answer": "10.16 anm/US gal."
 		},
 		{
 			"question": "Calculate the SGR for a TAS of 135kt, a 25kt tailwind, and fuel flow of 12.5 US gal/hour.",
