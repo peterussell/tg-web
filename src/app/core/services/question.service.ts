@@ -12,14 +12,15 @@ export class QuestionService {
 
     constructor(private jsonService: JsonService) {}
 
-    updateQuestionSet(questionSetId: number) {
+    updateQuestionSet(questionSetId: string) {
+
         this.jsonService.getQuestions(questionSetId)
             .subscribe((res) => {
-                if (res.statusCode !== 200) {
+                if (res == {}) {
                     // TODO: should go to a logger (does S3 have something we can use?)
                     console.log(`Error fetching questionSet ${questionSetId}, status code ${res.statusCode}.`);
                 } else {
-                    this.questionSet = res.body;
+                    this.questionSet = res
                     this.onQuestionsUpdated.emit(this.questionSet);
                 }
             });

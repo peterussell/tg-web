@@ -33,7 +33,7 @@
     <div class="form-group">
     
     <label for="questionSetSelect">Question Set</label>
-    <select id="questionSetSelect" class="form-control" (change)="onChangeQuestionSet($event.target.value)"> <!-- working here: selectQuestionSet needs an ID instead of an object -->
+    <select id="questionSetSelect" class="form-control" (change)="selectQuestionSet($event.target.value)">
       <option
         *ngFor="let questionSet of questionSets"
         value="{{ questionSet.questionSetId }}">

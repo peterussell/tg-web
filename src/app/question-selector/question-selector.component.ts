@@ -31,7 +31,7 @@ export class QuestionSelectorComponent implements OnInit {
   }
 
   loadCourses(coursesPath: string) {
-    this.jsonService.getCourses(coursesPath).subscribe(coursesJson => {
+    this.jsonService.getCourses().subscribe(coursesJson => {
       this.courses = coursesJson.courses;
       this.selectCourse(this.courses[0]);
     })
@@ -41,7 +41,7 @@ export class QuestionSelectorComponent implements OnInit {
     this.selectedCourse = course;
 
     if (this.selectedCourse !== null) {
-      this.topics = course.topics;
+      this.topics = this.selectedCourse.topics;
       this.selectTopic(this.selectedCourse.topics[0]);
     }
   }
@@ -51,15 +51,11 @@ export class QuestionSelectorComponent implements OnInit {
 
     if (this.selectedTopic !== null) {
       this.questionSets = this.selectedTopic.questionSets;
-      this.selectQuestionSet(this.selectedTopic.questionSets[0]);
+      this.selectQuestionSet(this.selectedTopic.questionSets[0].questionSetId);
     }
   }
 
-  selectQuestionSet(questionSet: QuestionSet) {
-    this.questionService.updateQuestionSet(1); // tmp, need to get dynamic ID
-  }
-
-  onChangeQuestionSet(questionSetId: number) {
-    console.log(questionSetId);
+  selectQuestionSet(questionSetId: string) {
+    this.questionService.updateQuestionSet(questionSetId);
   }
 }
