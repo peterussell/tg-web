@@ -1,0 +1,14 @@
+{
+	"TableName": "Course",
+	"KeySchema": [
+		{ "AttributeName": "CourseId", "KeyType": "HASH" }
+	],
+	"AttributeDefinitions": [
+		{ "AttributeName": "CourseId", "AttributeType": "S" },
+		{ "AttributeName": "Title", "AttributeType": "S" }
+	],
+	"ProvisionedThroughput": {
+		"ReadCapacityUnits": 5,
+		"WriteCapacityUnits": 5
+	}
+}
