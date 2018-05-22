@@ -85,7 +85,7 @@
 			"answer": "Track (TRK) and Track Made Good (TMG)."
 		},
 		{
-			"question": "Drift Error is measured from  _____ to _____. Track Error is measured from  _____ and _____.",
+			"question": "Drift Error is measured from  _____ to _____. Track Error is measured from  _____ to _____.",
 			"answer": "HDG to TRK. TRK to TMG."
 		},
 		{
