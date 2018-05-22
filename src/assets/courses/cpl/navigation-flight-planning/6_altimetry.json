@@ -69,8 +69,8 @@
 			"answer": "2600'. 5900'."
 		},
 		{
-			"question": "QNH is based on __________ and needs to be __________.",
-			"answer": "Sea level pressure. Regular intervals."
+			"question": "QNH is based on the pressure at __________ and needs to be set at __________.",
+			"answer": "Sea level. Regular intervals."
 		},
 		{
 			"question": "If you fly from an area of high pressure to an area of low pressure, your altimeter will read (higher/lower) than your actual altitude.",
@@ -145,8 +145,8 @@
 			"answer": "QNE."
 		},
 		{
-			"question": "Where do VFR cruising altitudes apply?",
-			"answer": "Above 3000' MSL, or 1000' AGL, which ever is higher."
+			"question": "VFR cruising altitudes apply above _____' _____, or _____' _____, whichever is higher.",
+			"answer": "3000' MSL. 1000' AGL."
 		},
 		{
 			"question": "What are the VFR cruising altitude rules in NZ?",
